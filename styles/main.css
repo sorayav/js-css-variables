@@ -21,7 +21,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 1px 1px 1px rgb(194, 194, 194);
   color: black;
-  margin-bottom: 50px;
+  margin: 50px;
   border-radius: 5px;
   font-size: 2rem;
 }
@@ -34,6 +34,7 @@ img {
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
+  margin: 20px;
 }
 
 .hl {
@@ -43,7 +44,7 @@ img {
 details {
   font-size: 0.8rem;
   position: absolute;
-  bottom: 15px;
+  bottom: 28px;
   width: 100%;
 }
 
@@ -51,8 +52,19 @@ summary {
   outline: none;
 }
 
+a {
+  color: var(--base);
+}
+
+a:visited {
+  color: var(--base);
+}
+
 @media (max-width: 500px) {
+  
+
   img {
     max-width: 300px;
+    margin: auto;
   }
 }
